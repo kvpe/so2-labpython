@@ -24,7 +24,7 @@ def get_user_move(board):
         user_input = input("Enter your move (x,y): ")
         x, y = map(int, user_input.split(","))
         if 0 <= x < 5 and 0 <= y < 5 and board[x][y] == ' ':
-            board[x][y] = X
+            board[x][y] = 'X'
             valid_move = True
         else:
             print("Nieprawidlowy ruch!")
