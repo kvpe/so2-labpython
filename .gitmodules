@@ -1,0 +1,3 @@
+[submodule "SO2P"]
+	path = SO2P
+	url = git@github.com:dawid-sz22/SO2P.git
